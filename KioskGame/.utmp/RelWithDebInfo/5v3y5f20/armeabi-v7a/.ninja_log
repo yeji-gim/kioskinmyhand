@@ -1,0 +1,21 @@
+# ninja log v5
+332	1299	7330716104037183	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	21c550580e5819e7
+90	3639	7330716128884597	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	5a8e4b62f223df2e
+136	3002	7330716120350952	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2671883f314257a2
+1301	3019	7330716117044189	C:/Unity/KioskGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5v3y5f20/obj/armeabi-v7a/libswappywrapper.so	9f04e9460680028e
+6	2290	7330716113932900	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a0582b065f8fcc14
+31	3018	7330716121525853	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	41d580bd2c44e20e
+187	3100	7330716122831647	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	7ad84c4e9db29848
+260	3269	7330716125158934	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5852606a2448302f
+62	3221	7330716124706128	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a8cd4499688c6405
+3640	4224	7330716133023696	C:/Unity/KioskGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5v3y5f20/obj/armeabi-v7a/libgame.so	28028f6eb86a0e43
+179	1339	7333299439014274	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	21c550580e5819e7
+44	1457	7333299446353599	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a0582b065f8fcc14
+144	1566	7333299448104795	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	7ad84c4e9db29848
+24	1604	7333299448387316	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	41d580bd2c44e20e
+113	1661	7333299447232346	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2671883f314257a2
+85	1671	7333299448370995	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5852606a2448302f
+8	1833	7333299450913450	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a8cd4499688c6405
+1340	1933	7333299450813763	C:/Unity/KioskGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5v3y5f20/obj/armeabi-v7a/libswappywrapper.so	9f04e9460680028e
+63	1997	7333299452471749	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	5a8e4b62f223df2e
+1997	2379	7333299455130707	C:/Unity/KioskGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5v3y5f20/obj/armeabi-v7a/libgame.so	28028f6eb86a0e43

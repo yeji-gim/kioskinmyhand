@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &474583459613103686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1746065443388909371}
+  - component: {fileID: 4440028377573746267}
+  - component: {fileID: 4556664043002544941}
+  - component: {fileID: 5122431699942728698}
+  - component: {fileID: 2197928591463177150}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1746065443388909371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474583459613103686}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4440028377573746267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474583459613103686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab5e8320c4333a24e8e7191a0da36d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cafe: {fileID: 0}
+  restaurant: {fileID: 0}
+  start: {fileID: 0}
+  information: {fileID: 0}
+  chooseDiffculty: {fileID: 0}
+  cafeorrestaurant: {fileID: 0}
+  cafeKiosk: {fileID: 0}
+  restuarantKiosk: {fileID: 0}
+  ice: {fileID: 0}
+  icebutton: {fileID: 0}
+  hot: {fileID: 0}
+  hotbutton: {fileID: 0}
+  dessert: {fileID: 0}
+  dessertbutton: {fileID: 0}
+  orderSheet: {fileID: 0}
+  cafeQuestPrefab: {fileID: 6235984369791551457, guid: aee3138a41ef9ba4ea3e01787e48fa89, type: 3}
+  gridLayoutGroup: {fileID: 0}
+  icebuttonon: {fileID: 0}
+  icebuttonoff: {fileID: 0}
+  hotbuttonon: {fileID: 0}
+  hotbuttonoff: {fileID: 0}
+  dessertbuttonon: {fileID: 0}
+  dessrtbuttonoff: {fileID: 0}
+  easyOption: {fileID: 0}
+  mediumOption: {fileID: 0}
+  diffucltOption: {fileID: 0}
+  burgereasyoption: {fileID: 0}
+  burgermediumoption: {fileID: 0}
+  burgerdiffucltoption: {fileID: 0}
+  fullOrder: {fileID: 0}
+  victoryPopup: {fileID: 0}
+  failedPopup: {fileID: 0}
+  finishPopup: {fileID: 0}
+  readyPopup: {fileID: 0}
+  burger: {fileID: 0}
+  burgeron: {fileID: 0}
+  side: {fileID: 0}
+  sideon: {fileID: 0}
+  drink: {fileID: 0}
+  drinkon: {fileID: 0}
+  burgerbuttonon: {fileID: 0}
+  burgerbuttonoff: {fileID: 0}
+  sidetbuttonon: {fileID: 0}
+  sidebuttonoff: {fileID: 0}
+  drinkbuttonon: {fileID: 0}
+  drinkbuttonoff: {fileID: 0}
+  goInformationButton: {fileID: 0}
+  restartButton: {fileID: 0}
+  shop: 
+--- !u!114 &4556664043002544941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474583459613103686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa6ed4cd2f8f2f48ad25240e802a783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orderPrefab: {fileID: 3054320764099140676, guid: 5ca52fde9759d9a4db6863a97a597e7c, type: 3}
+  gridLayoutGroup: {fileID: 0}
+  purple: {r: 0.3568, g: 0.1451, b: 0.9529, a: 1}
+  selectedCoffeeType: 
+  selectedIndex: 0
+  optionCountTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  optionTotalTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  nameTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  optionButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  optionLabels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &5122431699942728698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474583459613103686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a348e73d03fe744599b900713232463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orderPrefab: {fileID: 3054320764099140676, guid: 5ca52fde9759d9a4db6863a97a597e7c, type: 3}
+  gridLayoutGroup: {fileID: 0}
+  purple: {r: 0.3568, g: 0.1451, b: 0.9529, a: 1}
+  selectedItem: 
+  selectedIndex: 0
+  optionCountTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  optionTotalTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  nameTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  optionButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  optionLabels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  side: {fileID: 0}
+  drink: {fileID: 0}
+--- !u!114 &2197928591463177150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474583459613103686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df33b5d9501aa8e499fa4827fa22cc05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
