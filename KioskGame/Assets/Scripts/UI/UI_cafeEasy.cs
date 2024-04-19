@@ -19,6 +19,6 @@ public class UI_cafeEasy : UI_Base
         Get<Button>((int)cafeButtons.e_cafecancel).onClick.AddListener(UIManager.Instance.closefullOrder);
         Get<Button>((int)cafeButtons.e_cafeaccept).onClick.AddListener(cafeOrder.Instance.addToOrder);
         Get<Button>((int)cafeButtons.e_cafeadd).onClick.AddListener(cafeOrder.Instance.addQuantity);
-        Get<Button>((int)cafeButtons.e_cafesubtract).onClick.AddListener(cafeOrder.Instance.subtracQuatntity);
+        Get<Button>((int)cafeButtons.e_cafesubtract).onClick.AddListener(cafeOrder.Instance.subtractQuatntity);
     }
 }

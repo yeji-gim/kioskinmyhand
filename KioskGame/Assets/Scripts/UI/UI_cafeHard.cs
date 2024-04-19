@@ -17,7 +17,7 @@ public class UI_cafeHard : UI_Base
         Get<Button>((int)cafeButtons.h_cafecancel).onClick.AddListener(UIManager.Instance.closefullOrder);
         Get<Button>((int)cafeButtons.h_cafeaccept).onClick.AddListener(cafeOrder.Instance.addToOrder);
         Get<Button>((int)cafeButtons.h_cafeadd).onClick.AddListener(cafeOrder.Instance.addQuantity);
-        Get<Button>((int)cafeButtons.h_cafesubtract).onClick.AddListener(cafeOrder.Instance.subtracQuatntity);
+        Get<Button>((int)cafeButtons.h_cafesubtract).onClick.AddListener(cafeOrder.Instance.subtractQuatntity);
         Get<Button>((int)cafeButtons.h_caferegular).onClick.AddListener(cafeOrder.Instance.regularSize);
         Get<Button>((int)cafeButtons.h_cafelarge).onClick.AddListener(cafeOrder.Instance.LargeSize);
         Get<Button>((int)cafeButtons.h_sweet).onClick.AddListener(cafeOrder.Instance.cocoacaffeine);

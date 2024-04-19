@@ -18,6 +18,6 @@ public class UI_burEasy : UI_Base
         Get<Button>((int)burgerButtons.e_burcancel).onClick.AddListener(UIManager.Instance.closefullOrder);
         Get<Button>((int)burgerButtons.e_buraccept).onClick.AddListener(burgerOrder.Instance.addToOrder);
         Get<Button>((int)burgerButtons.e_buradd).onClick.AddListener(burgerOrder.Instance.addQuantity);
-        Get<Button>((int)burgerButtons.e_bursubtract).onClick.AddListener(burgerOrder.Instance.subtracQuatntity);
+        Get<Button>((int)burgerButtons.e_bursubtract).onClick.AddListener(burgerOrder.Instance.subtractQuatntity);
     }
 }

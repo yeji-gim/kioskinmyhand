@@ -111,7 +111,7 @@ public class cafeOrder : MonoBehaviour
         UpdateQuantityAndTotal();
     }
 
-    public void subtracQuatntity()
+    public void subtractQuatntity()
     {
         if (count > 1)
         {

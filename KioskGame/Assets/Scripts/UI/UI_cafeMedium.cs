@@ -17,7 +17,7 @@ public class UI_cafeMedium : UI_Base
         Get<Button>((int)cafeButtons.m_cafecancel).onClick.AddListener(UIManager.Instance.closefullOrder);
         Get<Button>((int)cafeButtons.m_cafeaccept).onClick.AddListener(cafeOrder.Instance.addToOrder);
         Get<Button>((int)cafeButtons.m_cafeadd).onClick.AddListener(cafeOrder.Instance.addQuantity);
-        Get<Button>((int)cafeButtons.m_cafesubtract).onClick.AddListener(cafeOrder.Instance.subtracQuatntity);
+        Get<Button>((int)cafeButtons.m_cafesubtract).onClick.AddListener(cafeOrder.Instance.subtractQuatntity);
         Get<Button>((int)cafeButtons.m_caferegular).onClick.AddListener(cafeOrder.Instance.regularSize);
         Get<Button>((int)cafeButtons.m_cafelarge).onClick.AddListener(cafeOrder.Instance.LargeSize);
     }

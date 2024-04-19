@@ -106,7 +106,7 @@ public class burgerOrder : MonoBehaviour
         updateQuantityAndTotal();
     }
 
-    public void subtracQuatntity()
+    public void subtractQuatntity()
     {
         if (count > 1)
         {

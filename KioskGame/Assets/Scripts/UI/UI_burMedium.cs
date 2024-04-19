@@ -18,7 +18,7 @@ public class UI_burMedium : UI_Base
         Get<Button>((int)burgerButtons.m_burcancel).onClick.AddListener(UIManager.Instance.closefullOrder);
         Get<Button>((int)burgerButtons.m_buraccept).onClick.AddListener(burgerOrder.Instance.addToOrder);
         Get<Button>((int)burgerButtons.m_buradd).onClick.AddListener(burgerOrder.Instance.addQuantity);
-        Get<Button>((int)burgerButtons.m_bursubtract).onClick.AddListener(burgerOrder.Instance.subtracQuatntity);
+        Get<Button>((int)burgerButtons.m_bursubtract).onClick.AddListener(burgerOrder.Instance.subtractQuatntity);
         Get<Button>((int)burgerButtons.m_no).onClick.AddListener(burgerOrder.Instance.detailsno);
         Get<Button>((int)burgerButtons.m_onion).onClick.AddListener(burgerOrder.Instance.detailonion);
         Get<Button>((int)burgerButtons.m_pickle).onClick.AddListener(burgerOrder.Instance.detailpickle);

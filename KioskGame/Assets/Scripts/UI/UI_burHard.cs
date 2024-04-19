@@ -18,7 +18,7 @@ public class UI_burHard : UI_Base
         Get<Button>((int)burgerButtons.h_burcancel).onClick.AddListener(UIManager.Instance.closefullOrder);
         Get<Button>((int)burgerButtons.h_buraccept).onClick.AddListener(burgerOrder.Instance.addToOrder);
         Get<Button>((int)burgerButtons.h_buradd).onClick.AddListener(burgerOrder.Instance.addQuantity);
-        Get<Button>((int)burgerButtons.h_bursubtract).onClick.AddListener(burgerOrder.Instance.subtracQuatntity);
+        Get<Button>((int)burgerButtons.h_bursubtract).onClick.AddListener(burgerOrder.Instance.subtractQuatntity);
         Get<Button>((int)burgerButtons.h_single).onClick.AddListener(burgerOrder.Instance.isnoSet);
         Get<Button>((int)burgerButtons.h_set).onClick.AddListener(burgerOrder.Instance.isSet);
     }
